@@ -25,3 +25,12 @@ in the 'modules' array()
 
 then: composer update -v
 All should be gravy
+
+If you see something like:
+[ErrorException]
+  Target app/code/M2Demo/M2Extension/Controller/Index/SayHello.php already exists (set extra.magento-force to override)
+
+  Add:
+  "magento-force": true,
+
+  to "extra" in composer.json
