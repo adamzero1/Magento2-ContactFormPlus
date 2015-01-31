@@ -1,6 +1,9 @@
 # Magento2-ContactFormPlus
 Magento 2 module Allows storage of contact forms
 
+Install instructions,
+check all is well before hand: composer update -v
+
 This stuff will need to be added to your composer.json file
 
 {
@@ -15,3 +18,10 @@ This stuff will need to be added to your composer.json file
     }
 }
 
+This will need to be added to your etc/config.php
+in the 'modules' array()
+'Zero1_ContactFormPlus' => 1,
+
+
+then: composer update -v
+All should be gravy
