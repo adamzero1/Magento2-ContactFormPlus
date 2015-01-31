@@ -18,7 +18,7 @@ This stuff will need to be added to your composer.json file
     }
 }
 
-This will naaeed to be added to your etc/config.php
+This will need to be added to your etc/config.php
 in the 'modules' array()
 'Zero1_ContactFormPlus' => 1,
 
