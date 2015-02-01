@@ -1,5 +1,6 @@
 # Magento2-ContactFormPlus
-Magento 2 module Allows storage of contact forms
+<h3>Description/Plan</h3>
+<p>Magento 2 module Allows storage of contact forms, as well as adding the ability to "resolve" contacts and provide a note about the resolution.</p><hr/>
 
 Install instructions,
 check all is well before hand: composer update -v
