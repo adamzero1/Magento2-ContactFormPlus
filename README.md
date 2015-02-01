@@ -2,12 +2,14 @@
 <h3>Description/Plan</h3>
 <p>Magento 2 module Allows storage of contact forms, as well as adding the ability to "resolve" contacts and provide a note about the resolution.</p><hr/>
 
-Install instructions,
-check all is well before hand: composer update -v
+<h3>Install instructions</h3>
+<ol>
+<li>check all is well before hand:<br />
+<pre>composer update -v</pre>
+If you get any issues resolve them now.</li>
 
-This stuff will need to be added to your composer.json file
-
-{
+<li>Add the following to your composer.json file:
+<pre>{
     "repositories": [
         {
             "type": "git",
@@ -17,21 +19,22 @@ This stuff will need to be added to your composer.json file
     "require": {
         "zero1/contact-form-plus": "dev-master"
     }
-}
+}</pre>
+</li>
 
-This will need to be added to your etc/config.php
-in the 'modules' array()
-'Zero1_ContactFormPlus' => 1,
+<li>Add the following to the <pre>'modules'</pre> array in [MAGENTO ROOT]/app/code/config.php:
+<pre>'Zero1_ContactFormPlus' => 1,</pre></li>
 
-
-then: composer update -v
-All should be gravy
-
-If you see something like:
+<li>(get what we just added)<br />
+</pre>composer update -v</pre>
+All should be gravy.<br />
+If you see something like:<br />
+<pre>
 [ErrorException]
-  Target app/code/M2Demo/M2Extension/Controller/Index/SayHello.php already exists (set extra.magento-force to override)
+  Target app/code/Path/To/Some/File/blah.php already exists (set extra.magento-force to override)
+</pre>
+add <pre style="block: display-inline;">"magento-force": true,</pre> to the 'extra' part of your composer.json
+</li>
 
-  Add:
-  "magento-force": true,
 
-  to "extra" in composer.json
+</ol>
