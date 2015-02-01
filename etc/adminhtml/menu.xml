@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
     <menu>
-        <add id="Zero1_ContactFormPlus::view_contacts" title="View Contacts" module="Zero1_ContactFormPlus" sortOrder="50" parent="Magento_Customer::customer" action="zero1/contactformplus" resource="Zero1_ContactFormPlus::view_contacts"/>
-        <add id="Zero1_ContactFormPlus::view_acontacts" title="Vieew Contacts" module="Zero1_ContactFormPlus" sortOrder="630" parent="Magento_Customer::customer" action="zero1/online" resource="Magento_Log::online"/>
+        <add id="Zero1_ContactFormPlus::view_contacts" title="View Contacts" module="Zero1_ContactFormPlus" sortOrder="50" parent="Magento_Customer::customer" action="zero_one/ContactFormPlus" resource="Zero1_ContactFormPlus::view_contacts"/>
     </menu>
 </config>

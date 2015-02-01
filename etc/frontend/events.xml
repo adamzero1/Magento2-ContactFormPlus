@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/Event/etc/events.xsd">
+    <event name="contact_form_submission_success">
+        <observer name="zero1_contact_form_plus" instance="Zero1\ContactFormPlus\Model\Observer\ContactFormSubmission" method="success" />
+    </event>
+</config>
