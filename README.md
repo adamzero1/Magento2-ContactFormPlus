@@ -26,14 +26,14 @@ If you get any issues resolve them now.</li>
 <pre>'Zero1_ContactFormPlus' => 1,</pre></li>
 
 <li>(get what we just added)<br />
-</pre>composer update -v</pre>
+</pre>composer update -v</pre><br />
 All should be gravy.<br />
 If you see something like:<br />
 <pre>
 [ErrorException]
   Target app/code/Path/To/Some/File/blah.php already exists (set extra.magento-force to override)
 </pre>
-add <pre style="block: display-inline;">"magento-force": true,</pre> to the 'extra' part of your composer.json
+add <pre>"magento-force": true,</pre> to the 'extra' part of your composer.json
 </li>
 
 
