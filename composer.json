@@ -1,12 +1,20 @@
 {
     "name": "zero1/contact-form-plus",
-    "description": "Allow storage of submitted contact forms",
+    "description": "Magento 2 module to allow storage of submitted contact forms",
     "require": {
         "php": "~5.4.11|~5.5.0",
         "magento/magento-composer-installer": "*"
     },
     "type": "magento2-module",
-    "version": "1.0",
+    "version": "1.0.0",
+    "keywords": [
+        "magento2",
+        "Magento2",
+        "Magento 2",
+        "magento 2",
+        "contact forms",
+        "Zero1"
+    ],
     "extra": {
         "map": [
             [
