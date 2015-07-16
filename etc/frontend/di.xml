@@ -1,4 +1,10 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
-    <preference for="Magento\Contact\Controller\Index\Post" type="Zero1\ContactFormPlus\Controller\Index\Post" />
+    <preference for="Magento\Contact\Controller\Index\Post" type="Zero1\ContactFormPlus\Controller\Contact\Index\Post" />
+
+    <!-- Cant use plugin because we would just be replicating logic
+    <type name="Magento\Contact\Controller\Index\Post">
+        <plugin name="zero1_contact_form_plus" type="Zero1\ContactFormPlus\Plugin\Contact\Controller\PostPlugin"/>
+    </type>
+    -->
 </config>
