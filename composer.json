@@ -1,5 +1,5 @@
 {
-    "name": "zero1/contact-form-plus",
+    "name": "zero1/magento2-contact-form-plus",
     "description": "Magento 2 module to allow storage and management of submitted contact forms",
     "require": {
         "php": "~5.4.11|~5.5.0",
